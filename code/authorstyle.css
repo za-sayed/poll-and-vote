@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(TO BOTTOM RIGHT, #AF6480,#C3CEE5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.authorization{
+    margin:0 auto;
+    margin-top: 70px;
+    width: 60%;
+    text-align: center;
+    color: white;
+    border: white 2px solid;
+    padding: 80px;
+}
+a.author{
+    text-decoration: none;
+    border: 1px white solid;
+    background-color: white;
+    padding: 8px 25px;
+    font-weight: 400;
+    color: #AF6480;
+    margin: 0 30px;
+}
+@media(max-width: 430px){
+    h2{
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+    .authorization{
+        width:80%;
+        padding: 40px 10px;
+    }
+    a.author{
+    padding: 4px 15px;
+    margin: 0 10px;
+    font-weight: 300;
+}
+}
+
+

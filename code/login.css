@@ -1,0 +1,199 @@
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body 
+{
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #AF6480, #C3CEE5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container 
+{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color : #e4e2e3;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container h1 
+{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-weight: 600;
+    color : #e4e2e3 ;
+}
+
+.input-box 
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 12px 0;
+}
+
+.input-box input 
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 40px;
+    font-size: 18px;
+    color : #e4e2e3 ;
+    padding: 20px 45px 20px 40px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    font-family: 'Signika', sans-serif;
+}
+
+.input-box input::placeholder 
+{
+    color: #e4e2e3;
+    font-family: 'Signika', sans-serif;
+}
+
+.input-box .fa-solid.fa-lock.fa-xs, .fa-solid.fa-envelope.fa-xs
+{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #e4e2e3;
+}
+
+.input-box .fa-regular.fa-eye, .fa-regular.fa-eye-slash
+{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    padding: 0 15px;
+    color: #e4e2e3;
+}
+
+.container #btn
+{
+    width: 100%;
+    height: 45px;
+    background-color: #e4e2e3;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba (0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #605257;
+    font-weight: 600; 
+    font-family: 'Signika', sans-serif; 
+}
+
+.container #btn:hover
+{
+    background-color: #d8d5d6d5;
+
+}
+
+.container .Register-link
+{
+    text-align: center;
+    margin: 20px 0;
+} 
+
+.Register-link p
+{
+    color: #e4e2e3;
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Register-link p a 
+{
+    color: #e4e2e3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Signika', sans-serif;
+}    
+    
+.Register-link p a:hover
+{ 
+    text-decoration: underline; 
+}
+
+.container .guest-link 
+{
+    text-align: center;
+    margin: 0 0 15px;
+}    
+
+.guest-link p a 
+{
+    color: #e4e2e3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+}    
+    
+.guest-link p a:hover
+{ 
+    text-decoration: underline; 
+} 
+
+.alert-G, .alert-S
+{
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 40px;
+    font-size: 14px;
+    font-family: 'Signika', sans-serif;
+    color: #e4e2e3;
+    padding: 15px 20px 20px 20px;
+    background-color: #ff00007d;
+    opacity: 1;
+    transition: opacity 0.4s;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.alert-S 
+{
+    background-color: #64af93;
+}
+  
+.closebtn 
+{
+    margin-left: 15px;
+    color: #e4e2e3;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    line-height: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Signika', sans-serif;
+}
+  
+.closebtn:hover 
+{
+    color: black;
+}
